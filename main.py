@@ -28,12 +28,12 @@ while play_again.lower() == "yes":
 #             print(num)
             comp = random.randint(0, 2)
 
-            if (num - comp) % 5 == 4:
+            if (num - comp) % 3 == 2:
                 print("You:", choice)
                 print("Comp:", l[comp])
                 print("---Comp WINS---")
                 cscore += 1
-            elif (num - comp) % 5 == 3:
+            elif (num - comp) % 3 == 1:
                 print("You:", choice)
                 print("Comp:", l[comp])
                 print("---You WIN---")
